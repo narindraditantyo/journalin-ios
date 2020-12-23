@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111B6BA52592DD4D00728CED /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B6BA42592DD4D00728CED /* JournalTableViewCell.swift */; };
+		111B6BA72592E59000728CED /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B6BA62592E59000728CED /* Journal.swift */; };
+		1196BB0125922D9700C871F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196BB0025922D9700C871F5 /* LoginViewController.swift */; };
+		1196BB0325922DA200C871F5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196BB0225922DA200C871F5 /* RegisterViewController.swift */; };
+		1196BB052592469800C871F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196BB042592469800C871F5 /* HomeViewController.swift */; };
+		1196BB07259246A400C871F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196BB06259246A400C871F5 /* ProfileViewController.swift */; };
+		1196BB09259246AE00C871F5 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196BB08259246AE00C871F5 /* AddEditViewController.swift */; };
+		1196BB0B2592B9EB00C871F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1196BB0A2592B9EB00C871F5 /* GoogleService-Info.plist */; };
+		11E3ACDF2590815000445163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E3ACDE2590815000445163 /* AppDelegate.swift */; };
+		11E3ACE12590815000445163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E3ACE02590815000445163 /* SceneDelegate.swift */; };
+		11E3ACE32590815000445163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E3ACE22590815000445163 /* ViewController.swift */; };
+		11E3ACE62590815000445163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E3ACE42590815000445163 /* Main.storyboard */; };
+		11E3ACE92590815000445163 /* mms_finpro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11E3ACE72590815000445163 /* mms_finpro.xcdatamodeld */; };
+		11E3ACEB2590815200445163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E3ACEA2590815200445163 /* Assets.xcassets */; };
+		11E3ACEE2590815200445163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E3ACEC2590815200445163 /* LaunchScreen.storyboard */; };
+		B9476CAC33376CA8F04A1937 /* Pods_mms_finpro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407837358216638F5DD7103A /* Pods_mms_finpro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		111B6BA42592DD4D00728CED /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		111B6BA62592E59000728CED /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		1196BB0025922D9700C871F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1196BB0225922DA200C871F5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1196BB042592469800C871F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1196BB06259246A400C871F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1196BB08259246AE00C871F5 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		1196BB0A2592B9EB00C871F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11E3ACDB2590815000445163 /* mms_finpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mms_finpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E3ACDE2590815000445163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11E3ACE02590815000445163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11E3ACE22590815000445163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11E3ACE52590815000445163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11E3ACE82590815000445163 /* mms_finpro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mms_finpro.xcdatamodel; sourceTree = "<group>"; };
+		11E3ACEA2590815200445163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11E3ACED2590815200445163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11E3ACEF2590815200445163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407837358216638F5DD7103A /* Pods_mms_finpro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mms_finpro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2625B5B6254D3BD94F90D6 /* Pods-mms_finpro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mms_finpro.debug.xcconfig"; path = "Target Support Files/Pods-mms_finpro/Pods-mms_finpro.debug.xcconfig"; sourceTree = "<group>"; };
+		73B09BA1E180B9C319E81020 /* Pods-mms_finpro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mms_finpro.release.xcconfig"; path = "Target Support Files/Pods-mms_finpro/Pods-mms_finpro.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11E3ACD82590815000445163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9476CAC33376CA8F04A1937 /* Pods_mms_finpro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119200B5259210CA00FCA2CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11E3ACE22590815000445163 /* ViewController.swift */,
+				1196BB0025922D9700C871F5 /* LoginViewController.swift */,
+				1196BB0225922DA200C871F5 /* RegisterViewController.swift */,
+				1196BB042592469800C871F5 /* HomeViewController.swift */,
+				1196BB06259246A400C871F5 /* ProfileViewController.swift */,
+				1196BB08259246AE00C871F5 /* AddEditViewController.swift */,
+				111B6BA42592DD4D00728CED /* JournalTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		119200B6259210D000FCA2CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11E3ACE42590815000445163 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		119200B7259210D300FCA2CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				111B6BA62592E59000728CED /* Journal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11E3ACD22590815000445163 = {
+			isa = PBXGroup;
+			children = (
+				11E3ACDD2590815000445163 /* mms_finpro */,
+				11E3ACDC2590815000445163 /* Products */,
+				BBD36C87F73DA0199A0DB509 /* Pods */,
+				ED12C510F262BFA6E9E2AAF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11E3ACDC2590815000445163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11E3ACDB2590815000445163 /* mms_finpro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11E3ACDD2590815000445163 /* mms_finpro */ = {
+			isa = PBXGroup;
+			children = (
+				119200B7259210D300FCA2CE /* Models */,
+				119200B6259210D000FCA2CE /* Views */,
+				119200B5259210CA00FCA2CE /* Controllers */,
+				11E3ACDE2590815000445163 /* AppDelegate.swift */,
+				11E3ACE02590815000445163 /* SceneDelegate.swift */,
+				11E3ACEA2590815200445163 /* Assets.xcassets */,
+				11E3ACEC2590815200445163 /* LaunchScreen.storyboard */,
+				11E3ACEF2590815200445163 /* Info.plist */,
+				11E3ACE72590815000445163 /* mms_finpro.xcdatamodeld */,
+				1196BB0A2592B9EB00C871F5 /* GoogleService-Info.plist */,
+			);
+			path = mms_finpro;
+			sourceTree = "<group>";
+		};
+		BBD36C87F73DA0199A0DB509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F2625B5B6254D3BD94F90D6 /* Pods-mms_finpro.debug.xcconfig */,
+				73B09BA1E180B9C319E81020 /* Pods-mms_finpro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED12C510F262BFA6E9E2AAF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				407837358216638F5DD7103A /* Pods_mms_finpro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11E3ACDA2590815000445163 /* mms_finpro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E3ACF22590815200445163 /* Build configuration list for PBXNativeTarget "mms_finpro" */;
+			buildPhases = (
+				4DF11DDFD85C5D3FA5A95840 /* [CP] Check Pods Manifest.lock */,
+				11E3ACD72590815000445163 /* Sources */,
+				11E3ACD82590815000445163 /* Frameworks */,
+				11E3ACD92590815000445163 /* Resources */,
+				10A7C683A8B865CBEBCFA0C5 /* [CP] Embed Pods Frameworks */,
+				2396E15BB4CC3F3788DD7BDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mms_finpro;
+			productName = mms_finpro;
+			productReference = 11E3ACDB2590815000445163 /* mms_finpro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11E3ACD32590815000445163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Narindra Aditantyo";
+				TargetAttributes = {
+					11E3ACDA2590815000445163 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 11E3ACD62590815000445163 /* Build configuration list for PBXProject "mms_finpro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11E3ACD22590815000445163;
+			productRefGroup = 11E3ACDC2590815000445163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11E3ACDA2590815000445163 /* mms_finpro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11E3ACD92590815000445163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E3ACEE2590815200445163 /* LaunchScreen.storyboard in Resources */,
+				1196BB0B2592B9EB00C871F5 /* GoogleService-Info.plist in Resources */,
+				11E3ACEB2590815200445163 /* Assets.xcassets in Resources */,
+				11E3ACE62590815000445163 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A7C683A8B865CBEBCFA0C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mms_finpro/Pods-mms_finpro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mms_finpro/Pods-mms_finpro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mms_finpro/Pods-mms_finpro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2396E15BB4CC3F3788DD7BDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mms_finpro/Pods-mms_finpro-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mms_finpro/Pods-mms_finpro-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mms_finpro/Pods-mms_finpro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DF11DDFD85C5D3FA5A95840 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mms_finpro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E3ACD72590815000445163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E3ACE32590815000445163 /* ViewController.swift in Sources */,
+				11E3ACE92590815000445163 /* mms_finpro.xcdatamodeld in Sources */,
+				1196BB09259246AE00C871F5 /* AddEditViewController.swift in Sources */,
+				11E3ACDF2590815000445163 /* AppDelegate.swift in Sources */,
+				1196BB0325922DA200C871F5 /* RegisterViewController.swift in Sources */,
+				1196BB0125922D9700C871F5 /* LoginViewController.swift in Sources */,
+				1196BB052592469800C871F5 /* HomeViewController.swift in Sources */,
+				111B6BA72592E59000728CED /* Journal.swift in Sources */,
+				111B6BA52592DD4D00728CED /* JournalTableViewCell.swift in Sources */,
+				1196BB07259246A400C871F5 /* ProfileViewController.swift in Sources */,
+				11E3ACE12590815000445163 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11E3ACE42590815000445163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E3ACE52590815000445163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11E3ACEC2590815200445163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E3ACED2590815200445163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11E3ACF02590815200445163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11E3ACF12590815200445163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11E3ACF32590815200445163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2625B5B6254D3BD94F90D6 /* Pods-mms_finpro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mms_finpro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narindra-aditantyo.mms-finpro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11E3ACF42590815200445163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B09BA1E180B9C319E81020 /* Pods-mms_finpro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mms_finpro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narindra-aditantyo.mms-finpro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11E3ACD62590815000445163 /* Build configuration list for PBXProject "mms_finpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E3ACF02590815200445163 /* Debug */,
+				11E3ACF12590815200445163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E3ACF22590815200445163 /* Build configuration list for PBXNativeTarget "mms_finpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E3ACF32590815200445163 /* Debug */,
+				11E3ACF42590815200445163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11E3ACE72590815000445163 /* mms_finpro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11E3ACE82590815000445163 /* mms_finpro.xcdatamodel */,
+			);
+			currentVersion = 11E3ACE82590815000445163 /* mms_finpro.xcdatamodel */;
+			path = mms_finpro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11E3ACD32590815000445163 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_mms_finpro {
+  umbrella header "Pods-mms_finpro-umbrella.h"
+
+  export *
+  module * { export * }
+}
